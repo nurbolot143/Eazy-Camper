@@ -1,0 +1,53 @@
+@import "../vars";
+
+.promo {
+  width: 741px;
+  padding: 96px 156px 75px 64px;
+  margin-left: 63px;
+  transform: translateY(-50%);
+  margin-bottom: -10%;
+  background-color: $light;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+
+  &-title {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 49px;
+    color: $dark;
+
+    span {
+      color: $accent-color;
+    }
+  }
+
+  &-txt {
+    font-family: $accent-font;
+    font-style: 500;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $dark;
+    opacity: 0.6;
+  }
+
+  &-link {
+    display: inline-block;
+    padding: 21px 77px;
+    background-color: $accent-color;
+    font-family: $accent-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    color: $light;
+    cursor: pointer;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    &-icon {
+      margin-right: 8px;
+    }
+  }
+}

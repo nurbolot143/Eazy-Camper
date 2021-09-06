@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 650px;
+  background: url(../../images/top-screen-bg.jpg) no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-top: 30px;
+}
+
+.header-wrapper {
+  padding: 0 122px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .login-btn {
+  padding: 10px 14px;
+  -webkit-border-radius: 26px;
+          border-radius: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.header .login-btn-arrow {
+  margin-right: 2px;
+}
+
+.promo {
+  width: 741px;
+  padding: 96px 156px 75px 64px;
+  margin-left: 63px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-bottom: -10%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+}
+
+.promo-title {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.promo-title span {
+  color: #f78065;
+}
+
+.promo-txt {
+  font-family: "Montserrat", sans-serif;
+  font-style: 500;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.promo-link {
+  display: inline-block;
+  padding: 21px 77px;
+  background-color: #f78065;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.promo-link-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo-link-icon {
+  margin-right: 8px;
+}
+
+.top-screen {
+  position: relative;
+  min-height: 650px;
+  background: url(../../images/top-screen-bg.jpg) no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-top: 30px;
+}
+
+.info {
+  padding-bottom: 250px;
+}
+
+.info-inner {
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.info-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 386px;
+  padding: 41px;
+}
+
+.info-icon {
+  margin-bottom: 64px;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.info-txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.info-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f78065;
+}
