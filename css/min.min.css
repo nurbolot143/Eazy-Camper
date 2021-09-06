@@ -155,7 +155,7 @@ body {
 }
 
 .info-inner {
-  padding: 20px 40px;
+  padding: 20px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
