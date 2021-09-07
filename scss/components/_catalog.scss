@@ -72,6 +72,10 @@
 
 @media (max-width: 600px) {
   .catalog {
+    &-inner {
+      justify-content: center;
+    }
+
     &-title {
       margin-bottom: 25px;
     }
