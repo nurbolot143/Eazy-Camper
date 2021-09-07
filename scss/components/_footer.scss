@@ -81,6 +81,10 @@
 
 @media (max-width: 517px) {
   .footer {
+    &-content {
+      margin-left: 20px;
+    }
+
     &-bottom {
       &-list {
         width: 100%;

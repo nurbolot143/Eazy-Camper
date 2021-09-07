@@ -559,6 +559,9 @@ body {
 }
 
 @media (max-width: 517px) {
+  .footer-content {
+    margin-left: 20px;
+  }
   .footer-bottom-list {
     width: 100%;
     -webkit-box-pack: justify;
