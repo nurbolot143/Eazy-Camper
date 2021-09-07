@@ -46,3 +46,9 @@
     color: $accent-color;
   }
 }
+
+@media (max-width: 700px) {
+  .info {
+    margin-bottom: 50px;
+  }
+}

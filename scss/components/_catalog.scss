@@ -69,3 +69,19 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 600px) {
+  .catalog {
+    &-title {
+      margin-bottom: 25px;
+    }
+
+    &-icon {
+      margin-bottom: 10px;
+    }
+
+    &-repeat {
+      margin-bottom: 0;
+    }
+  }
+}

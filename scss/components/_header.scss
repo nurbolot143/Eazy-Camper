@@ -1,10 +1,8 @@
 @import "../vars";
 
 .header {
-  min-height: 650px;
-  background: url(../../images/top-screen-bg.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
+  width: 100%;
+  position: absolute;
   padding-top: 30px;
 
   &-wrapper {

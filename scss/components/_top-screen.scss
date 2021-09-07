@@ -1,8 +1,7 @@
 .top-screen {
   position: relative;
-  min-height: 650px;
-  background: url(../../images/top-screen-bg.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  padding-top: 30px;
+
+  &-image {
+    width: 100%;
+  }
 }

@@ -62,11 +62,37 @@
 
     &-list {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
 
       &-item + &-item {
         margin-left: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 790px) {
+  .footer {
+    &-bottom {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 517px) {
+  .footer {
+    &-bottom {
+      &-list {
+        width: 100%;
+        justify-content: space-between;
+
+        &-item + &-item {
+          margin-left: 0;
+        }
+
+        &-item {
+          padding: 5px 10px;
+        }
       }
     }
   }
