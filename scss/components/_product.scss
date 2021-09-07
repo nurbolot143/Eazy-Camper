@@ -1,0 +1,65 @@
+@import "../vars";
+
+.product {
+  margin: 100px 0;
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-promo {
+    max-width: 325px;
+
+    &-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 45px;
+      color: $dark;
+    }
+
+    &-txt {
+      margin-bottom: 40px;
+      font-family: $accent-font;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: $dark;
+      opacity: 0.5;
+    }
+
+    &-link {
+      padding: 21px 91px 21px 89px;
+    }
+  }
+
+  &-item {
+    width: 230px;
+    margin: 25px;
+
+    &-title {
+      padding-bottom: 8px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: $dark;
+    }
+
+    &-txt {
+      font-family: $accent-font;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: $dark;
+      opacity: 0.4;
+    }
+
+    &-link {
+      font-family: $accent-font;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: $accent-color;
+    }
+  }
+}

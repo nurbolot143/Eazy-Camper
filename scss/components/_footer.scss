@@ -1,0 +1,73 @@
+@import "../vars";
+
+.footer {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-content {
+    width: 300px;
+  }
+  &-logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $dark;
+  }
+  &-title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: $dark;
+  }
+
+  &-item {
+    width: 260px;
+    margin: 0 20px;
+
+    &-title {
+      margin-top: 0;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: $dark;
+    }
+  }
+
+  .list-group {
+    &-item {
+      margin-bottom: 22px;
+    }
+  }
+
+  &-link {
+    font-family: $accent-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark;
+  }
+
+  &-bottom {
+    border-top: 1px solid $dark;
+    padding-top: 28px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      &-item + &-item {
+        margin-left: 48px;
+      }
+    }
+  }
+}
